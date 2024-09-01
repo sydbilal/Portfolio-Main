@@ -1,0 +1,26 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Y-axis Scrollbar */
+html {
+  /* scrollbar-width: thin; */
+  scrollbar-color: maroon-red blue-950;
+}
+
+html::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track {
+  /* background: #1e3a8a; Dark blue background */
+}
+
+html::-webkit-scrollbar-thumb {
+  background: linear-gradient(to bottom, #800000, #ffffff); /* Maroon to dark blue gradient */
+  border-radius: 8px;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(to bottom, #6e0909, #ffffff); /* Lighter maroon on hover */
+}
