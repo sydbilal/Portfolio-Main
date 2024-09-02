@@ -21,7 +21,7 @@ const ContactMe = () => {
       </form>
       <div className="text-center mt-10">
         <a href="https://www.linkedin.com/in/syed-mustafa-nadeem-6ab63a187/" className="text-gray-500 hover:text-blue-700 mx-2">LinkedIn</a>
-        <a href="https://www.github.com/syedmustafan " className="text-gray-500 hover:text-blue-700 mx-2">GitHub</a>
+        <a href="http://github.com/syedmustafanxref " className="text-gray-500 hover:text-blue-700 mx-2">GitHub</a>
         {/* Add more social links as needed */}
       </div>
     </div>
