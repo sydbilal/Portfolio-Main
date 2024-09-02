@@ -40,8 +40,9 @@ const Projects = () => {
         </div>
 
         <div className="bg-white p-5 shadow-lg rounded-lg hover:shadow-2xl transition-shadow">
-          <h3 className="text-xl font-semibold mb-3">Project Title</h3>
-          <p className="text-gray-600">Brief description of the project, highlighting key technologies and features.</p>
+          <h3 className="text-xl font-semibold mb-3">Food delivery App (Backend Developer)</h3>
+          <p className="text-gray-600">Successfully integrated applications with various third-party services, including Dynamics 365 ERP for streamlined enterprise resource planning, Twilio for robust communication solutions, and Checkout for seamless payment processing.
+          Worked on developing a real-time dashboard for the warehouse team using Firebase, enabling efficient monitoring and management of inventory and operations. Leveraged Elasticsearch to enhance search functionalities and indexed data to significantly optimize the response time for listing queries.Successfully integrated applications with various third-party services, including Dynamics 365 ERP for streamlined enterprise resource planning, Twilio for robust communication solutions, and Checkout for seamless payment processing. Worked on developing a real-time dashboard for the warehouse team using Firebase, enabling efficient monitoring and management of inventory and operations. Leveraged Elasticsearch to enhance search functionalities and indexed data to significantly optimize the response time for listing queries.</p>
         </div>
 
 
