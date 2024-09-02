@@ -12,7 +12,7 @@ const Home = () => {
       </h3>
 
       <p className="mt-10 max-w-xl text-center text-gray-700">
-        Experienced Full Stack Developer with a focus on JavaScript and Python - Node and Django as backend and React, Angular as frontend. I have a passion for creating scalable and efficient systems, with 4+ years of experience in the field. I have a good understanding of RESTful APIs, database architecture, and server-side optimization techniques. My expertise in React, Angular, Node, Django frameworks allows me to develop robust and secure web applications. Proficient in JavaScript, Python, AWS, ElasticSearch, and Docker, I can create and deploy highly performant and resilient systems. Let's build something great together!
+        Experienced Full Stack Developer with a focus on JavaScript and Python - Node and Django as backend and React, Angular as frontend. I have a passion for creating scalable and efficient systems, with 5+ years of experience in the field. I have a good understanding of RESTful APIs, database architecture, and server-side optimization techniques. My expertise in React, Angular, Node, Django frameworks allows me to develop robust and secure web applications. Proficient in JavaScript, Python, AWS, ElasticSearch, and Docker, I can create and deploy highly performant and resilient systems. Let's build something great together!
       </p>
     </div>
   );

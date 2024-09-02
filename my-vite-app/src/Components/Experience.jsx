@@ -20,7 +20,7 @@ const Experience = () => {
 
         <li className="bg-white p-5 shadow-lg rounded-lg">
           <h3 className="text-xl font-semibold">FiveRivers Tech · Python Developer</h3>
-          <h3 className="text-s font-semibold text-gray-600">Feb 2020 - Jul 2021 · 1 yr 6 mos</h3>
+          <h3 className="text-s font-semibold text-gray-600">Feb 2019 - Jul 2021 · 1 yr 6 mos</h3>
           <p className="text-gray-600">Worked on developing a real-time dashboard for the warehouse team using Firebase, enabling efficient monitoring and management of inventory and operations. Leveraged Elasticsearch to enhance search functionalities and indexed data to significantly optimize the response time for listing queries.</p>
         </li>
 
