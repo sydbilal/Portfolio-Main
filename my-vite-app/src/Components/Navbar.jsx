@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="bg-gradient-to-b from-[#161a2e] to-transparent bg-opacity-10 backdrop-blur-md backdrop-filter p-8 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-lg font-bold" >
-          <a href="#home">Syed Mustafa Nadeem</a>
+          <a href="#introduction">Syed Mustafa Nadeem</a>
         </div>
         <div className="hidden md:flex space-x-6">
           <a href="#home" className="text-white font-bold hover:text-maroon-red">

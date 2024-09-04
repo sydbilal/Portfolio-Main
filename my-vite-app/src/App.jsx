@@ -25,7 +25,7 @@ const App = () => {
       <section id="home" className="py-5">
   <Home />
 </section>
-<section id='' className='' >
+<section id="introduction" className='' >
   <Introduction/>
 </section>
 <section id="techstack" className="py-5" data-aos="fade-down">
