@@ -109,7 +109,7 @@ const Projects = () => {
             <ModalBody>
               <Text mb={3}>{selectedProject.description}</Text>
               <video controls width="100%">
-                <source src={`/public/${selectedProject.video}`} type="video/mp4" />
+                <source src={`/src/${selectedProject.video}`} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </ModalBody>
