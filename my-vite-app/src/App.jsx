@@ -28,9 +28,7 @@ const App = () => {
 <section id="introduction" className='' >
   <Introduction/>
 </section>
-<section id="techstack" className="py-5" data-aos="fade-down">
-        <TechStack/>
-      </section>
+
 <section id="projects" className="py-5 " data-aos="fade-down" >
   <Projects />
 </section>

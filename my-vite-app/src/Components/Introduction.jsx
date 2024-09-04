@@ -1,8 +1,12 @@
 import React from 'react';
+import TechStack from './Techstack';
 
 const Introduction = () => {
   return (
+    <div>
     <div className="h-screen flex items-center justify-center p-6">
+
+
       <div className="border-4 border-gray-800 p-8 rounded-lg shadow-lg w-full max-w-screen-lg flex flex-col items-center">
         <div className="flex flex-col md:flex-row gap-10 w-full">
           {/* Left Column */}
@@ -22,7 +26,15 @@ const Introduction = () => {
           </div>
         </div>
       </div>
+      
     </div>
+    <div>
+      <section id="techstack" className="py-1 " data-aos="fade-down">
+        <TechStack/>
+      </section>
+      </div>
+    </div>
+    
   );
 };
 
