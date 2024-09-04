@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-gradient-to-b from-maroon-red to-transparent bg-opacity-20 backdrop-blur-md backdrop-filter p-8 fixed w-full z-10 shadow-lg">
+    <nav className="bg-gradient-to-b from-[#161a2e] to-transparent bg-opacity-10 backdrop-blur-md backdrop-filter p-8 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-lg font-bold" >
           <a href="#home">Syed Mustafa Nadeem</a>

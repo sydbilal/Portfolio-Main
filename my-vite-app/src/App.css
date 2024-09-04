@@ -5,7 +5,7 @@ html {
 /* Custom Y-axis Scrollbar */
 html {
   /* scrollbar-width: thin; */
-  scrollbar-color: maroon-red blue-950;
+  scrollbar-color: maroon-red blue-900, green-900, red-600, black-800, #161a2e ;
 }
 
 html::-webkit-scrollbar {
@@ -17,10 +17,27 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #800000, #ffffff); /* Maroon to dark blue gradient */
+  background: linear-gradient(to bottom, #86866a, #2c2a18); /* Maroon to dark blue gradient */
   border-radius: 8px;
 }
 
 html::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #6e0909, #ffffff); /* Lighter maroon on hover */
+  background: linear-gradient(to bottom, #86866a, #2c2a18); /* Lighter maroon on hover */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Slight upward motion */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Original position */
+  }
+}
+
+.fade-in {
+  opacity: 0; /* Start with hidden text */
+  animation: fadeIn 1s ease-in-out forwards; /* Fade-in over 2 seconds */
+  animation-delay: 0s; /* Delay before the animation starts */
 }

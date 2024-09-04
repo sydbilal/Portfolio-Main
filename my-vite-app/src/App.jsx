@@ -7,6 +7,8 @@ import './App.css'
 import Home from './Components/Home';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
+import Introduction from './Components/Introduction';
+import TechStack from './Components/Techstack';
 
 const App = () => {
   useEffect(() => {
@@ -20,19 +22,24 @@ const App = () => {
     <div>
       <Navbar/>
 
-      <section id="home" className="py-5 bg-gray-100">
+      <section id="home" className="py-5">
   <Home />
 </section>
-
-<section id="projects" className="py-5 bg-gray-100" data-aos="fade-down">
+<section id='' className='' >
+  <Introduction/>
+</section>
+<section id="techstack" className="py-5" data-aos="fade-down">
+        <TechStack/>
+      </section>
+<section id="projects" className="py-5 " data-aos="fade-down" >
   <Projects />
 </section>
 
-<section id="experience" className="py-1 bg-gray-100" data-aos="fade-down">
+<section id="experience" className="py-1 " data-aos="fade-down" >
   <Experience />
 </section>
 
-<section id="contact" className="py-5 bg-gray-100" data-aos="fade-down">
+<section id="contact" className="py-5" data-aos="fade-down" >
   <ContactMe />
 </section>
     </div>
