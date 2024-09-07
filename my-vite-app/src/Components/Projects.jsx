@@ -31,9 +31,9 @@ const Projects = () => {
       video: "hotelmanagement.mp4" // Add your video file here
     },
     {
-      title: "Coffee Order Website",
+      title: "Food Chain Website",
       description: "This project is a dynamic foodchain and drinks website developed for a Saudi client using React and Redux...",
-      video: "coffee.mp4" // Add your video file here
+      video: "foodchain.mp4" // Add your video file here
     },
     {
       title: "Local Restaurant Aggregator Website",
@@ -51,9 +51,14 @@ const Projects = () => {
       video: "ecube.mp4" // Add your video file here
     },
     {
-      title: "Food delivery App (Backend Developer)",
+      title: "Food delivery WebApp (Backend Developer)",
       description: "Successfully integrated applications with various third-party services, including Dynamics 365 ERP for streamlined enterprise resource planning, Twilio for robust communication solutions, and Checkout for seamless payment processing. Worked on developing a real-time dashboard for the warehouse team using Firebase, enabling efficient monitoring and management of inventory and operations...",
-      video: "fooddelivery.mp4" // Add your video file here
+      // video: "fooddelivery.mp4" // Add your video file here
+    },
+    {
+      title: "Task Management App",
+      description: "This project is a comprehensive task management app developed using React Native. The application allows users to efficiently manage their tasks by providing functionalities such as adding, deleting, and editing tasks. Additionally, users can mark tasks as accomplished once they are finished, making it easy to keep track of progress...",
+      video: "taskapp.mp4" // Add your video file here
     },
     // Add other projects similarly
     

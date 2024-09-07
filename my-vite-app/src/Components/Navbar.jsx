@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
+import { SunIcon, MoonIcon } from '@heroicons/react/24/solid'; // Updated import path for v2
 
-const Navbar = () => {
+const Navbar = ({ toggleTheme, theme }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
@@ -10,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gradient-to-b from-[#161a2e] to-transparent bg-opacity-10 backdrop-blur-md backdrop-filter p-8 fixed w-full z-10">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-lg font-bold" >
+        <div className="text-white text-lg font-bold">
           <a href="#introduction">Syed Mustafa Nadeem</a>
         </div>
         <div className="hidden md:flex space-x-6">
@@ -26,9 +27,19 @@ const Navbar = () => {
           <a href="#contact" className="text-white font-bold hover:text-maroon-red">
             Contact Me
           </a>
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-md transition"
+          >
+            {theme === 'dark' ? (
+              <SunIcon className="w-6 h-6 text-white" /> // Sun icon for light mode
+            ) : (
+              <MoonIcon className="w-6 h-6 text-white" /> // Moon icon for dark mode
+            )}
+          </button>
         </div>
         <div className="md:hidden flex items-center">
-          <button 
+          <button
             className="text-white font-bold hover:text-maroon-red focus:outline-none"
             onClick={toggleMenu}
           >
@@ -50,7 +61,11 @@ const Navbar = () => {
         </div>
       </div>
       {/* Mobile Menu */}
-      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'} absolute top-16 left-0 w-full bg-blue-950 bg-opacity-75 p-4`}>
+      <div
+        className={`md:hidden ${
+          isOpen ? 'block' : 'hidden'
+        } absolute top-16 left-0 w-full bg-blue-950 bg-opacity-75 p-4`}
+      >
         <a href="#home" className="block text-white font-bold py-2" onClick={toggleMenu}>
           Home
         </a>
@@ -63,6 +78,16 @@ const Navbar = () => {
         <a href="#contact" className="block text-white font-bold py-2" onClick={toggleMenu}>
           Contact Me
         </a>
+        <button
+          onClick={toggleTheme}
+          className="p-2 rounded-md transition"
+        >
+          {theme === 'dark' ? (
+            <SunIcon className="w-6 h-6 text-white" /> // Sun icon for light mode
+          ) : (
+            <MoonIcon className="w-6 h-6 text-black" /> // Moon icon for dark mode
+          )}
+        </button>
       </div>
     </nav>
   );

@@ -5,30 +5,34 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 const ContactMe = () => {
   return (
     <Box
-      bgGradient="linear(to-r, blue.900, red.500)"
+      bg="transparent"
       p={10}
       borderRadius="lg"
-      boxShadow="lg"
       maxW="full"
       mx="auto"
       mt={10}
     >
-      <Heading as="h2" size="lg" textAlign="center" mb={6} color="white">
+      <Heading as="h2" size="lg" textAlign="center" mb={6} color="red.500">
         Contact Me
       </Heading>
       <form>
-        <VStack spacing={4}>
+        <VStack spacing={4}      
+>
           <FormControl id="name">
-            <FormLabel color="white">Name</FormLabel>
-            <Input type="text" bg="white" borderRadius="md" placeholder="Your Name" />
+            <FormLabel color="red.500"      
+>Name</FormLabel>
+            <Input type="text" bg="white" borderRadius="md" placeholder="Your Name"       boxShadow="lg"
+            />
           </FormControl>
           <FormControl id="email">
-            <FormLabel color="white">Email</FormLabel>
-            <Input type="email" bg="white" borderRadius="md" placeholder="Your Email" />
+            <FormLabel color="red.500">Email</FormLabel>
+            <Input type="email" bg="white" borderRadius="md" placeholder="Your Email"       boxShadow="lg"
+ />
           </FormControl>
           <FormControl id="message">
-            <FormLabel color="white">Message</FormLabel>
-            <Textarea bg="white" borderRadius="md" placeholder="Your Message" rows={5} />
+            <FormLabel color="red.500">Message</FormLabel>
+            <Textarea bg="white" borderRadius="md" placeholder="Your Message" rows={5}       boxShadow="lg"
+            />
           </FormControl>
           <Button
             w="full"

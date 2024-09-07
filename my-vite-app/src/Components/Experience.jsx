@@ -3,13 +3,13 @@ import { Box, Heading, Text, VStack } from '@chakra-ui/react';
 
 const Experience = () => {
   return (
-    <Box maxW="full" mx="auto" mt={10} py={10} px={6} bg="blue.900" color="white" borderRadius="lg" boxShadow="lg">
+    <Box maxW="full" mx="auto" mt={10} py={10} px={6} bg="transparent" color="white" borderRadius="lg" >
       <Heading as="h2" size="xl" textAlign="center" mb={8} color="red.400">
         My Experience
       </Heading>
       <VStack spacing={8}>
         {/* Experience 1 */}
-        <Box p={6} bg="blue.800" borderRadius="lg" w="100%" boxShadow="md">
+        <Box p={6} bg="blue.800" borderRadius="lg" w="100%" boxShadow="lg">
           <Heading as="h3" size="md" mb={2} color="red.300">
             Xref · Senior Full-Stack Engineer
           </Heading>
