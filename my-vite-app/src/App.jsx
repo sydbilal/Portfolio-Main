@@ -9,7 +9,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; // Import the AOS styles
 import Introduction from './Components/Introduction';
 import Services from './Components/Services';
-import LoginScreen from './Components/LoginScreen'; // Import the LoadingScreen component
+// import LoginScreen from './Components/LoginScreen'; // Import the LoadingScreen component
+import Testimonials from './Components/Testimonial';
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -37,9 +38,9 @@ const App = () => {
   }, [theme]);
 
   // Show loading screen until animation finishes
-  if (!loadingComplete) {
-    return <LoginScreen setLoadingComplete={setLoadingComplete} />;
-  }
+  // if (!loadingComplete) {
+  //   return <LoginScreen setLoadingComplete={setLoadingComplete} />;
+  // }
 
   return (
     <div className={`${theme === 'dark' ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
@@ -59,6 +60,9 @@ const App = () => {
       </section>
       <section id="experience" className="py-1" data-aos="fade-down">
         <Experience />
+      </section>
+      <section id="experience" className="py-1" data-aos="fade-down">
+        <Testimonials/>
       </section>
       <section id="contact" className="py-5" data-aos="fade-down">
         <ContactMe />

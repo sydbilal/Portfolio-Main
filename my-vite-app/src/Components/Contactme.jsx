@@ -1,8 +1,10 @@
 import React from 'react';
-import { Box, Button, FormControl, FormLabel, Input, Textarea, VStack, Link, Heading, HStack } from '@chakra-ui/react';
+import { Box, Button, FormControl, FormLabel, Input, Textarea, VStack, Link, Heading, HStack, useColorMode } from '@chakra-ui/react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const ContactMe = () => {
+  const { colorMode } = useColorMode(); // Chakra UI's hook to detect the color mode
+
   return (
     <Box
       bg="transparent"
@@ -16,22 +18,44 @@ const ContactMe = () => {
         Contact Me
       </Heading>
       <form>
-        <VStack spacing={4}      
->
+        <VStack spacing={4}>
           <FormControl id="name">
-            <FormLabel color="red.500"      
->Name</FormLabel>
-            <Input type="text" bg="white" borderRadius="md" placeholder="Your Name"       boxShadow="lg"
+            <FormLabel color="red.500">Name</FormLabel>
+            <Input
+              type="text"
+              bg={colorMode === 'dark' ? 'blue.800' : 'white'} // Blue background in dark mode
+              color={colorMode === 'dark' ? 'white' : 'black'} // White text in dark mode
+              placeholder="Your Name"
+              _placeholder={{ color: colorMode === 'dark' ? 'white' : 'gray.500' }} // White placeholders in dark mode
+              borderColor={colorMode === 'dark' ? 'white' : 'gray.300'} // White border in dark mode
+              borderRadius="md"
+              boxShadow="lg"
             />
           </FormControl>
           <FormControl id="email">
             <FormLabel color="red.500">Email</FormLabel>
-            <Input type="email" bg="white" borderRadius="md" placeholder="Your Email"       boxShadow="lg"
- />
+            <Input
+              type="email"
+              bg={colorMode === 'dark' ? 'blue.800' : 'white'}
+              color={colorMode === 'dark' ? 'white' : 'black'}
+              placeholder="Your Email"
+              _placeholder={{ color: colorMode === 'dark' ? 'white' : 'gray.500' }}
+              borderColor={colorMode === 'dark' ? 'white' : 'gray.300'}
+              borderRadius="md"
+              boxShadow="lg"
+            />
           </FormControl>
           <FormControl id="message">
             <FormLabel color="red.500">Message</FormLabel>
-            <Textarea bg="white" borderRadius="md" placeholder="Your Message" rows={5}       boxShadow="lg"
+            <Textarea
+              bg={colorMode === 'dark' ? 'blue.800' : 'white'}
+              color={colorMode === 'dark' ? 'white' : 'black'}
+              placeholder="Your Message"
+              _placeholder={{ color: colorMode === 'dark' ? 'white' : 'gray.500' }}
+              borderColor={colorMode === 'dark' ? 'white' : 'gray.300'}
+              borderRadius="md"
+              boxShadow="lg"
+              rows={5}
             />
           </FormControl>
           <Button

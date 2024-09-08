@@ -21,20 +21,20 @@ const Introduction = () => {
               <p className="mt-7 text-gray-400 max-w-lg mx-auto">
                 Experienced Full Stack Developer with a focus on JavaScript and Python - Node and Django as backend and React, Angular as frontend...
               </p>
-              {/* Button for Resume */}
-              <div className="mt-5">
+              {/* Buttons for Resume */}
+              <div className="mt-5 flex flex-col sm:flex-row gap-4">
                 <a 
                   href="/resume.pdf" 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-4"
+                  className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto text-center"
                 >
                   View Resume
                 </a>
                 <a 
                   href="/resume.pdf" 
                   download 
-                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+                  className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full sm:w-auto text-center"
                 >
                   Download Resume
                 </a>

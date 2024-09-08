@@ -38,7 +38,7 @@ const Navbar = ({ toggleTheme, theme }) => {
             )}
           </button>
         </div>
-        <div className="md:hidden flex items-center">
+        <div className="md:hidden flex items-center space-x-4">
           <button
             className="text-white font-bold hover:text-maroon-red focus:outline-none"
             onClick={toggleMenu}
@@ -57,6 +57,16 @@ const Navbar = ({ toggleTheme, theme }) => {
                 d="M4 6h16M4 12h16M4 18h16"
               ></path>
             </svg>
+          </button>
+          <button
+            onClick={toggleTheme}
+            className="p-2 rounded-md transition"
+          >
+            {theme === 'dark' ? (
+              <SunIcon className="w-6 h-6 text-white" /> // Sun icon for light mode
+            ) : (
+              <MoonIcon className="w-6 h-6 text-white" /> // Moon icon for dark mode
+            )}
           </button>
         </div>
       </div>
@@ -78,16 +88,6 @@ const Navbar = ({ toggleTheme, theme }) => {
         <a href="#contact" className="block text-white font-bold py-2" onClick={toggleMenu}>
           Contact Me
         </a>
-        <button
-          onClick={toggleTheme}
-          className="p-2 rounded-md transition"
-        >
-          {theme === 'dark' ? (
-            <SunIcon className="w-6 h-6 text-white" /> // Sun icon for light mode
-          ) : (
-            <MoonIcon className="w-6 h-6 text-black" /> // Moon icon for dark mode
-          )}
-        </button>
       </div>
     </nav>
   );
