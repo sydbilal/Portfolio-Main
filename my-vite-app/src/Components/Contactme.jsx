@@ -134,7 +134,14 @@ const ContactMe = () => {
           </HStack>
         </Flex>
       </Flex>
+      <Box mt={10} textAlign="center">
+        <Text fontSize="sm" color={colorMode === 'dark' ? 'gray.300' : 'gray.600'}>
+          © 2022 MustafaNadeem. All Rights Reserved.
+        </Text>
+      </Box>
+
     </Box>
+    
   );
 };
 

@@ -4,11 +4,13 @@ import { Box, Flex, Text, Progress, Stack } from '@chakra-ui/react';
 const skills = [
   { name: 'Python', percentage: 100 },
   { name: 'Django', percentage: 100 },
-  { name: 'JavaScript', percentage: 95 },
-  { name: 'React', percentage: 98 },
-  { name: 'Node.js', percentage: 94 },
-  { name: 'SQL', percentage: 100 },
-  { name: 'Tailwind CSS', percentage: 85 },
+  { name: 'JavaScript', percentage: 98 },
+  { name: 'Angular', percentage: 100 },
+  { name: 'React', percentage: 99 },
+  { name: 'Node.js', percentage: 97 },
+  { name: 'SQL', percentage: 99 },
+  { name: 'MongoDB', percentage: 100 },
+  { name: 'Tailwind CSS', percentage: 96 },
 ];
 
 const SkillBar = ({ skill }) => {
@@ -39,7 +41,7 @@ const SkillBar = ({ skill }) => {
         fontWeight="bold"
       >
         <Text>
-          {skill.name} - {skill.percentage}%
+          {skill.name}
         </Text>
       </Flex>
     </Box>
