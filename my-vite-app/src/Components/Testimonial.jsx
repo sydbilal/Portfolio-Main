@@ -14,18 +14,18 @@ import { FaStar } from 'react-icons/fa';
 
 const testimonials = [
   {
-    name: 'John Doe',
-    role: 'Project Manager at XYZ Corp (US)',
+    name: 'Jane Cors',
+    role: 'Project Manager at TeamTech (US)',
     content:
-      'Syed’s expertise in Python and web development helped us meet crucial deadlines and deliver a top-notch product.',
+      'Helped us meet crucial deadlines and deliver a top-notch product using his skills in Webdevelopement.',
     avatar: '/avatars/john_doe.jpg',
     flag: 'https://flagcdn.com/us.svg',
   },
   {
-    name: 'Emily Clark',
-    role: 'CTO at ABC Ltd (UK)',
+    name: 'Emma Clark',
+    role: 'CTO at Clarks Ltd (UK)',
     content:
-      'Syed’s knowledge of React Native and web automation has streamlined our processes immensely.',
+      'React Native and web automation has streamlined our processes immensely.',
     avatar: '/avatars/emily_clark.jpg',
     flag: 'https://flagcdn.com/gb.svg',
   },
@@ -33,7 +33,7 @@ const testimonials = [
     name: 'Michael Brown',
     role: 'CEO at MapleTech (Canada)',
     content:
-      'Syed built a stunning web app using React that exceeded our expectations and improved our workflow.',
+      'Mustafa built a stunning web app using React that exceeded our expectations and improved our workflow.',
     avatar: '/avatars/michael_brown.jpg',
     flag: 'https://flagcdn.com/ca.svg',
   },
@@ -57,7 +57,7 @@ const testimonials = [
     name: 'Ali Khan',
     role: 'Founder at StartUp Hub (Pakistan)',
     content:
-      'Syed’s automation solutions in Python saved us significant time and allowed us to scale quickly.',
+      'Dudes automation solutions in Python saved us significant time and allowed us to scale quickly.',
     avatar: '/avatars/ali_khan.jpg',
     flag: 'https://flagcdn.com/pk.svg',
   },
@@ -65,13 +65,13 @@ const testimonials = [
     name: 'Sarah Ahmed',
     role: 'COO at Enterprise Solutions (Pakistan)',
     content:
-      'His work on our web development project using React was simply outstanding. Highly recommend!',
+      'Mustafas work on our web development project using React was simply outstanding. Highly recommend!',
     avatar: '/avatars/sarah_ahmed.jpg',
     flag: 'https://flagcdn.com/pk.svg',
   },
   {
     name: 'James Lee',
-    role: 'IT Director at GlobalTech (Canada)',
+    role: 'Project Manager at GlobalTech (Canada)',
     content:
       'Syed’s expertise in React Native and Python helped us tackle complex data challenges.',
     avatar: '/avatars/james_lee.jpg',
