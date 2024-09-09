@@ -11,6 +11,7 @@ import Introduction from './Components/Introduction';
 import Services from './Components/Services';
 // import LoginScreen from './Components/LoginScreen'; // Import the LoadingScreen component
 import Testimonials from './Components/Testimonial';
+import Skills from './Components/SkillsBar';
 
 const App = () => {
   const [theme, setTheme] = useState('light');
@@ -51,6 +52,9 @@ const App = () => {
       </section>
       <section id="introduction" className="">
         <Introduction />
+      </section>
+      <section id="introduction" className="" data-aos="fade-down">
+        <Skills/>
       </section>
       <section id="services" className="py-5" data-aos="fade-down">
         <Services />
